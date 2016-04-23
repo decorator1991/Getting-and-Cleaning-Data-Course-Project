@@ -1,4 +1,6 @@
 #Code Book related to tidydataset.csv
+=======
+
 This code book is related to UCI HAR dataset - data on different measurements obtained from accelerometer recordings of 30 subjects performing activities of daily living while carrying a waist-mounted smartphone with embedded inertial sensors.
 
 ##Variables
