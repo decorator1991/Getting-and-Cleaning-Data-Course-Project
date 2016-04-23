@@ -59,4 +59,4 @@ combined_average <- dcast(combined_tbl_melted, subject + activity ~ variable, me
 colnames(combined_average) <- c("subject","activity",sub("([A-Za-z]+)","\\1Average",colnames(combined_average))[3:ncol(combined_average)])
 
 #6. Write obtained tidy dataset into separate file
-write.csv(combined_average,"tidydataset.csv",row.names = F)
+write.table(combined_average,"tidydataset.txt",row.names = F)
