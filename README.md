@@ -4,7 +4,7 @@
 Files include:
 
 1. run_analysis.R - actual script that creates tidy dataset from UCI HAR dataset (and downloads it if it isn't already downloaded) and saves it into separate file;
-2. tidydataset.csv - tidy dataset obtained as a result of run_analysis.R script;
+2. tidydataset.txt - tidy dataset obtained as a result of run_analysis.R script;
 3. CodeBook.md - code book with description of data, variables and all transformations applied to data by run_analysis.R scipt.
 
 run_analysis.R script performs the following steps:
